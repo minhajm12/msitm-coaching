@@ -2419,6 +2419,19 @@ p
 
 @media only screen and (max-width: 992px)
 {
+
+  /* .offcanvas.show
+  {
+    width: 70% !important;
+  } */
+  .offcanvas-header img
+  {
+    width: 75%;
+  }
+  .main-banner-sec .navbar-toggler img
+  {
+    width: 80%;
+  }
   .navbar-toggler:focus
   {
     box-shadow: none !important;
@@ -2860,6 +2873,11 @@ p
 
 
 
+  
+
+
+
+
 
 
 
@@ -2895,6 +2913,7 @@ p
   {
     /* height: 300px; */
     object-fit: cover;
+    border-radius: 20px;
   }
   .main-banner-sec .header-logo img
   {

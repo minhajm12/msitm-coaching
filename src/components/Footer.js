@@ -18,8 +18,8 @@ function footer() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-12 left">
-              <h2>Don't let your STEM degree<br /> go to waste!</h2>
-              <a href="" className="main-btn">Apply Now</a>
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Don't let your STEM degree<br /> go to waste!</h2>
+              <a href="" className="main-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Apply Now</a>
             </div>
             <div className="col-lg-6 col-12 right"></div>
           </div>
@@ -28,7 +28,7 @@ function footer() {
       <div className="footer-main">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-12 logo-div">
+            <div className="col-lg-4 col-md-6 col-12 logo-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
               <div className="logo-img-div">
                 <img src={footerLogo} alt="" className='img-fluid' />
               </div>
@@ -52,7 +52,7 @@ function footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12 footer-nav ps-md-5">
+            <div className="col-lg-3 col-md-6 col-12 footer-nav ps-md-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
               <h4>Usefull Links</h4>
               <ul>
                 <li>
@@ -87,7 +87,7 @@ function footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-2 col-md-6 col-12 footer-nav mt-md-5 ">
+            <div className="col-lg-2 col-md-6 col-12 footer-nav mt-lg-0 mt-md-5 " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
               <h4>Usefull Links</h4>
               <ul>
                 <li>
@@ -112,7 +112,7 @@ function footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-md-6 col-12 contact-details mt-md-5 ps-md-5">
+            <div className="col-lg-3 col-md-6 col-12 contact-details mt-lg-0 mt-md-5 ps-md-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
               <div className="contact">
                 <h4>Contact Details</h4>
                 <div className="items">

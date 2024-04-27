@@ -21,7 +21,7 @@ function Header() {
         <div className='header-main' id='header-main'>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid d-flex">
-                    <a href="" className='header-logo'>
+                    <a href="" className='header-logo' data-aos="fade-left" data-aos-duration="1000">
                         <img src={HeaderLogo} alt="" />
                     </a>
 
@@ -49,12 +49,12 @@ function Header() {
 
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Programs</a>
-                            <a class="nav-link" href="#">Hire From MSITM</a>
-                            <a class="nav-link" href="#">Mentoring</a>
-                            <a class="nav-link" href="#">Blog</a>
-                            <a class="main-btn" href="#">Free Consultation</a>
+                            <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="nav-link" href="#">Programs</a>
+                            <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" class="nav-link" href="#">Hire From MSITM</a>
+                            <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="nav-link" href="#">Mentoring</a>
+                            <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="nav-link" href="#">Blog</a>
+                            <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="00" class="main-btn" href="#">Free Consultation</a>
                         </div>
                     </div>
                 </div>
