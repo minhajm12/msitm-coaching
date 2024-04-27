@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/msitm-coaching/static/css/main.15923718.css",
-    "main.js": "/msitm-coaching/static/js/main.7810f396.js",
+    "main.css": "/msitm-coaching/static/css/main.8aa08e92.css",
+    "main.js": "/msitm-coaching/static/js/main.9b2462c2.js",
     "static/media/mentorship-bg.jpg": "/msitm-coaching/static/media/mentorship-bg.ecc52af7c9bc00e859e8.jpg",
     "static/media/banner-img-4.jpg": "/msitm-coaching/static/media/banner-img-4.525333402933f6346122.jpg",
     "static/media/flexible-learning.jpg": "/msitm-coaching/static/media/flexible-learning.b6aa00031bd2aec09fc1.jpg",
@@ -9,8 +9,8 @@
     "static/media/facualty-img.png": "/msitm-coaching/static/media/facualty-img.801e892e18fa7e9d6406.png",
     "static/media/banner-img-3.jpg": "/msitm-coaching/static/media/banner-img-3.188674d19cd503f54ecf.jpg",
     "static/media/expert-mentor-img.png": "/msitm-coaching/static/media/expert-mentor-img.b005696eb0a4c2181e9c.png",
+    "static/media/banner-img-1.jpg": "/msitm-coaching/static/media/banner-img-1.3c1b402d1f80eeee7132.jpg",
     "static/media/footer-bg.jpg": "/msitm-coaching/static/media/footer-bg.806f057b11fc84282d4e.jpg",
-    "static/media/banner-img-1.jpg": "/msitm-coaching/static/media/banner-img-1.2f98feaf2d13208fdba0.jpg",
     "static/media/opt-benefits-img.jpg": "/msitm-coaching/static/media/opt-benefits-img.6075828fdf82a0276e48.jpg",
     "static/media/placement-bg.jpg": "/msitm-coaching/static/media/placement-bg.7de3394b5e5768a0f2f4.jpg",
     "static/media/banner-img-2.jpg": "/msitm-coaching/static/media/banner-img-2.eaecd1b3d7213126222e.jpg",
@@ -103,11 +103,11 @@
     "static/media/play-btn.svg": "/msitm-coaching/static/media/play-btn.ebd60ac5cb017302ffef6b634a0e0565.svg",
     "static/media/arrow-icon-white.svg": "/msitm-coaching/static/media/arrow-icon-white.c9bc29528dddff522d3a.svg",
     "static/media/arrow-icon.svg": "/msitm-coaching/static/media/arrow-icon.c5df56de05e1b9994bfa.svg",
-    "main.15923718.css.map": "/msitm-coaching/static/css/main.15923718.css.map",
-    "main.7810f396.js.map": "/msitm-coaching/static/js/main.7810f396.js.map"
+    "main.8aa08e92.css.map": "/msitm-coaching/static/css/main.8aa08e92.css.map",
+    "main.9b2462c2.js.map": "/msitm-coaching/static/js/main.9b2462c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.15923718.css",
-    "static/js/main.7810f396.js"
+    "static/css/main.8aa08e92.css",
+    "static/js/main.9b2462c2.js"
   ]
 }
