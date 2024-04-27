@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/msitm-coaching/static/css/main.64404ef3.css",
-    "main.js": "/msitm-coaching/static/js/main.40cdb307.js",
+    "main.js": "/msitm-coaching/static/js/main.20b149e5.js",
     "static/media/mentorship-bg.jpg": "/msitm-coaching/static/media/mentorship-bg.ecc52af7c9bc00e859e8.jpg",
     "static/media/banner-img-4.jpg": "/msitm-coaching/static/media/banner-img-4.525333402933f6346122.jpg",
     "static/media/flexible-learning.jpg": "/msitm-coaching/static/media/flexible-learning.b6aa00031bd2aec09fc1.jpg",
@@ -104,10 +104,10 @@
     "static/media/arrow-icon-white.svg": "/msitm-coaching/static/media/arrow-icon-white.c9bc29528dddff522d3a.svg",
     "static/media/arrow-icon.svg": "/msitm-coaching/static/media/arrow-icon.c5df56de05e1b9994bfa.svg",
     "main.64404ef3.css.map": "/msitm-coaching/static/css/main.64404ef3.css.map",
-    "main.40cdb307.js.map": "/msitm-coaching/static/js/main.40cdb307.js.map"
+    "main.20b149e5.js.map": "/msitm-coaching/static/js/main.20b149e5.js.map"
   },
   "entrypoints": [
     "static/css/main.64404ef3.css",
-    "static/js/main.40cdb307.js"
+    "static/js/main.20b149e5.js"
   ]
 }
