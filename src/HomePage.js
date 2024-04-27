@@ -131,7 +131,7 @@ function HomePage() {
 
     useEffect(() => {
         AOS.init(); // Initialize AOS
-      }, []);
+    }, []);
 
 
 
@@ -1182,10 +1182,8 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-12 right">
-                            <div className="cta-item">
-                                <h2>Don't let life hold you back. Take control of your education with our flexible program</h2>
-                                <a href='' className="main-btn">Apply Now</a>
-                            </div>
+                            <h2>Don't let life hold you back. Take control of your education with our flexible program</h2>
+                            <a href='' className="main-btn">Apply Now</a>
                         </div>
                     </div>
                 </div>
