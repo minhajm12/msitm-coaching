@@ -199,7 +199,7 @@ function HomePage() {
                             className='owl-theme'
                             items={1}
                             loop
-                            autoplay
+                            // autoplay
                             autoplayTimeout={5000}
                             margin={80}
                             dots
@@ -251,7 +251,7 @@ function HomePage() {
                             <div className="item">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-12 left">
-                                        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="000">Personalized <br />Mentorship & Your Guide to <span className='grade-text'> Tech Success</span></h1>
+                                        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="000">Personalized <br />Mentorship & Your Guide to <br className='d-lg-none d-md-block d-none'/><span className='grade-text'> Tech Success</span></h1>
                                         <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Gain expert guidance, build confidence, and achieve your career goals with our one-on-one mentorship program</p>
                                         <div className="banner-btns">
                                             <a href="" className='main-btn'>More About Mentorship</a>
@@ -320,9 +320,9 @@ function HomePage() {
             </div>
 
             <div className="typed-sec">
-                <div className="typed-main-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="000" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="000">
+                <div className="typed-main-div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="000">
                     <div className="container">
-                        <h2 className='scnd-head'><span className='grade-text'>Are You Ready to</span> <span ref={el} /></h2>
+                        <h2 className='scnd-head'><span className='grade-text'>Are You Ready to</span><br/> <span ref={el} className='typing'/></h2>
                         <p className="main-para">If so, you've come to the right place. Your dream career starts here. In today's dynamic world, success demands a mastery of technology, adept management skills, and inspiring leadership qualities. At MSITM Coach, we offer a unique blend of technology, management, and leadership programs designed to empower you to achieve your full potential.</p>
                     </div>
                 </div>
@@ -610,7 +610,7 @@ function HomePage() {
                                 <img src={expertmentorImg} alt="" className='img-fluid' />
                             </div>
                             <div className="content">
-                                <h3>Expert Mentors Guide <span className="grade-text">Your Path</span></h3>
+                                <h3>Expert Mentors Guide <br className='d-lg-none d-md-none d-block'/><span className="grade-text">Your Path</span></h3>
                                 <p className="main-para">Gain insights, practice interviews, and chart your career trajectory with our dedicated team of mentors.</p>
                                 <a href='#' className="main-btn">Know More</a>
                             </div>
@@ -885,7 +885,7 @@ function HomePage() {
                                     settings: {
                                         slidesToShow: 2,
                                         slidesToScroll: 1,
-                                        speed: 8000,
+                                        speed: 4000,
                                     },
                                 },
                             ]}

@@ -53,7 +53,7 @@ function footer() {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12 footer-nav ps-md-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-              <h4>Usefull Links</h4>
+              <h4>Quick Links</h4>
               <ul>
                 <li>
                   <a href="">

@@ -456,6 +456,10 @@ p
   text-align: center;
   margin-top: 20px !important;
 }
+.typed-sec .typing
+{
+  font-size: 28px;
+}
 
 
 
@@ -2305,7 +2309,14 @@ p
 {
   .banner-main h1
   {
-    font-size: 38px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .banner-main h1 .grade-text::after
+  {
+    top:-10px;
+    right: -30px;
+    transform: scale(.9);
   }
   .header-main .navbar-nav
   {
@@ -2335,8 +2346,18 @@ p
   {
     width: 30px !important;
   }
+  .banner-main p
+  {
+    padding-right: 20px;
+  }
 
 
+
+
+  .typed-sec .typing
+  {
+    font-size: 24px;
+  }
 
 
 
@@ -2365,7 +2386,7 @@ p
 
   .testimonials-sec .video-container .video-main .play-btn
   {
-    width: 15%;
+    width: 15% !important;
   }
 
 
@@ -2417,7 +2438,7 @@ p
 
 
 
-@media only screen and (max-width: 992px)
+@media only screen and (max-width: 999px)
 {
 
   /* .offcanvas.show
@@ -2427,6 +2448,12 @@ p
   .offcanvas-header img
   {
     width: 75%;
+  }
+
+  .banner-main h1
+  {
+    font-size: 38px;
+    line-height: normal;
   }
   .main-banner-sec .navbar-toggler img
   {
@@ -2464,7 +2491,7 @@ p
   .banner-main .left
   {
     padding: 0 60px;
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .banner-main h1
   {
@@ -2477,7 +2504,10 @@ p
   }
   .banner-main .owl-carousel .owl-stage-outer
   {
-    padding: 40px 0;
+    padding: 0;
+  }
+  .banner-main .owl-theme .owl-dots {
+    transform: translateY(10px);
   }
   .banner-main .right .banner-img-div img
   {
@@ -2522,6 +2552,9 @@ p
   .typed-sec .typed-main-div
   {
     padding: 80px 20px;
+  }
+  .typed-sec .typing {
+    font-size: 22px;
   }
 
 
@@ -2886,7 +2919,30 @@ p
 
 
 
-@media only screen and (max-width: 768px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 765px)
 {
 
   .offcanvas .nav-link
@@ -2907,7 +2963,7 @@ p
   }
   .main-banner-sec .header-logo
   {
-    width: fit-content;
+    width: 280px;
   }
   .banner-main .right .banner-img-div img
   {
@@ -3010,6 +3066,9 @@ p
     padding: 0;
     margin-top: 10px !important;
   }
+  .typed-sec .typing {
+    font-size: 16px;
+  }
 
 
 
@@ -3023,13 +3082,21 @@ p
   .programs-main .programes-items
   {
     width: 90%;
-    padding: 30px;
+    padding: 30px 20px;
     border-radius: 20px;
   }
   .programs-sec h6
   {
     font-size: 16px;
     margin-top: 40px;
+  }
+  .programs-main .programes-items h3
+  {
+    font-size: 18px;
+  }
+  .programs-main .programes-items .main-para
+  {
+    margin-top: -10px !important;
   }
 
   
@@ -3074,6 +3141,7 @@ p
   .mentorship-prgrm-sec .bottom-sec .items-div h5
   {
     margin-top:10px;
+    width: 100%;
   }
   .mentorship-prgrm-sec .bottom-sec .items-div .main-para
   {
@@ -3139,6 +3207,7 @@ p
   .facualty-section h3
   {
     font-size: 24px;
+    text-align: center
   }
   .facualty-section .row
   {
@@ -3165,7 +3234,7 @@ p
   }
   .testimonials-sec .video-container .video-main
   {
-    height: 200px;
+    /* height: 200px; */
   }
   .testimonials-sec .written-testi-sec .testi-items .items
   {
@@ -3347,7 +3416,11 @@ p
   }
   .benefits-sec .left h3
   {
-    font-size: 24px;
+    font-size: 22px;
+  }
+  .benefits-sec .left .icn-section h5
+  {
+    font-size: 16px;
   }
   .benefits-sec .left .icn-section
   {
@@ -3405,5 +3478,115 @@ p
 
 
 
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 380px)
+{
+  .main-banner-sec .header-logo
+  {
+    width: 250px;
+  }
+  .main-banner-sec .main-btn, .video-btn
+  {
+    transform: scale(.9) !important;
+  }
+  .banner-main .banner-btns
+  {
+    gap:10px;
+  }
+  .banner-main .right .banner-img-div img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+
+
+
+
+
+  .typed-sec {
+    padding: 0 0% 20%;
+  }
+  .typed-sec .typed-main-div
+  {
+    border-radius: 0;
+  }
+  .typed-sec .main-para
+  {
+    font-size: 14px;
+  }
+
+
+
+  .mentorship-prgrm-sec .cta-sec h2
+  {
+    font-size: 22px;
+  }
+
+
+
+  .placement-section .placement-points img
+  {
+    width: 30%;
+  }
+  .placement-section .placement-points h6
+  {
+    font-size: 16px;
+  }
+  
+
+  .recent-placements .container
+  {
+    padding: 0;
+  }
+
+
+
+  .benefits-sec .left h3
+  {
+    font-size: 20px;
+  }
+
+
+
+  .footer-sec .footer-main .newsletter-div input
+  {
+    width: 200px;
+  }
 
 }
