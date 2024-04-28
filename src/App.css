@@ -2981,7 +2981,7 @@ p
     margin-top: 40px;
   }
   .banner-main .owl-theme .owl-dots {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   .banner-main h1
   {
@@ -3532,6 +3532,14 @@ p
     height: 200px;
     object-fit: cover;
     border-radius: 20px;
+  }
+  .banner-main .left
+  {
+    /* margin-top: 20px; */
+  }
+  .banner-main h1
+  {
+    font-size: 22px;
   }
 
 
